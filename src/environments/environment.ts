@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig: {
+    apiKey: "AIzaSyD99LbJc3Ru1h7pj_KUSG-LHx5Myecqcdk",
+    authDomain: "tapsy-stock-app-v3-database.firebaseapp.com",
+    databaseURL: "https://tapsy-stock-app-v3-database-default-rtdb.firebaseio.com",
+    projectId: "tapsy-stock-app-v3-database",
+    storageBucket: "tapsy-stock-app-v3-database.appspot.com",
+    messagingSenderId: "177050935539",
+    appId: "1:177050935539:web:49d05e2e0550a041479786",
+    measurementId: "G-WDRLWRN89J"
+  }
 };
 
 /*

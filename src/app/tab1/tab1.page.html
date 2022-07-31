@@ -13,5 +13,9 @@
     </ion-toolbar>
   </ion-header>
 
+  <ion-button style="margin-top: 12px; margin-left: 20px;" (click)="photoUploadService.addNewToGallery()" [disabled]="photoUploadService.uploadphotobutton">
+    <ion-icon slot="icon-only" name="camera-outline"></ion-icon> Upload Photo
+  </ion-button>
+
   <app-explore-container name="Tab 1 page"></app-explore-container>
 </ion-content>
